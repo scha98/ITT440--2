@@ -77,7 +77,7 @@ int main (void)
 	strcpy(data , "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 	
 	//some address resolution
-	strcpy(source_ip , ("10.0.2.15")); //your ip
+	strcpy(source_ip , ("10.0.2.15")); //your i
 	sin.sin_family = AF_INET;
 	sin.sin_port = htons(80);
 	sin.sin_addr.s_addr = inet_addr ("172.20.43.61"); //destination ip
