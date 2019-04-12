@@ -80,7 +80,7 @@ int main (void)
 	strcpy(source_ip , ("10.0.2.15")); //your i
 	sin.sin_family = AF_INET;
 	sin.sin_port = htons(80);
-	sin.sin_addr.s_addr = inet_addr ("172.20.43.61"); //destination ip
+	sin.sin_addr.s_addr = inet_addr ("192.168.1.108"); //destination ip
 	
 	//Fill in the IP Header
 	iph->ihl = 5;
