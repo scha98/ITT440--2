@@ -1,6 +1,6 @@
 #include<stdio.h>	//for printf
 #include<string.h> //memset
-#include<sys/socket.h>	//for socket ofcourse
+#include<src/socket.h>	//for socket ofcourse
 #include<stdlib.h> //for exit(0);
 #include<errno.h> //For errno - the error number
 #include<netinet/tcp.h>	//Provides declarations for tcp header
